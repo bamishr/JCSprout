@@ -63,6 +63,8 @@ public class BinaryNodeTravel {
         nodeA.setRight(nodeC);
         nodeC.setLeft(nodeE);
         nodeC.setRight(nodeF);
+        nodeC.setRight(nodeD);
+        nodeC.setRight(nodeC);
 
         return nodeA ;
     }

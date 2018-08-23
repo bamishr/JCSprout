@@ -60,6 +60,7 @@ public class BinaryNode {
         left2.setRight(left6);
         node.setRight(left3);
         left3.setRight(left5) ;
+        left3.setRight(left6) ;
         return node ;
     }
 

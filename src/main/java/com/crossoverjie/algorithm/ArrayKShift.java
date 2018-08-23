@@ -26,6 +26,11 @@ public class ArrayKShift {
         }
 
         k = k % array.length;
+		
+		if (array == null || 0 == array.length) {
+            return ;
+        }
+
 
         if (0 > k) {
             return;
